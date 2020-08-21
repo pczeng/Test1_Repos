@@ -1,0 +1,75 @@
+﻿namespace mq_send
+{
+    partial class frm_mq_send
+    {
+        /// <summary>
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows 窗体设计器生成的代码
+
+        /// <summary>
+        /// 设计器支持所需的方法 - 不要修改
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btn_send = new System.Windows.Forms.Button();
+            this.txt_msg = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btn_send
+            // 
+            this.btn_send.Location = new System.Drawing.Point(300, 24);
+            this.btn_send.Name = "btn_send";
+            this.btn_send.Size = new System.Drawing.Size(75, 23);
+            this.btn_send.TabIndex = 0;
+            this.btn_send.Text = "send";
+            this.btn_send.UseVisualStyleBackColor = true;
+            this.btn_send.Click += new System.EventHandler(this.btn_send_Click);
+            // 
+            // txt_msg
+            // 
+            this.txt_msg.Location = new System.Drawing.Point(300, 66);
+            this.txt_msg.Multiline = true;
+            this.txt_msg.Name = "txt_msg";
+            this.txt_msg.Size = new System.Drawing.Size(438, 134);
+            this.txt_msg.TabIndex = 1;
+            this.txt_msg.Text = "I am um-data";
+            // 
+            // frm_mq_send
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 274);
+            this.Controls.Add(this.txt_msg);
+            this.Controls.Add(this.btn_send);
+            this.Name = "frm_mq_send";
+            this.Text = "RabbitMQ-Send";
+            this.Load += new System.EventHandler(this.frm_mq_send_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btn_send;
+        private System.Windows.Forms.TextBox txt_msg;
+    }
+}
+
