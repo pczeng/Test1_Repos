@@ -39,7 +39,6 @@ namespace mq_send
                 factory.UserName = "guest";
                 factory.Password = "guest";
 
-
                 using (var connection = factory.CreateConnection())
                 {
                     using (var channel = connection.CreateModel())
