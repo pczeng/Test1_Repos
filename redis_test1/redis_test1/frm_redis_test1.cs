@@ -16,5 +16,17 @@ namespace redis_test1
         {
             InitializeComponent();
         }
+
+        private void frm_redis_test1_Load(object sender, EventArgs e)
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace + "\r\n" + ex.Message);
+            }
+        }
     }
 }
