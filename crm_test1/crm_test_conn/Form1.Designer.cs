@@ -1,6 +1,6 @@
-﻿namespace redis_test1
+﻿namespace crm_test_conn
 {
-    partial class frm_redis_test1
+    partial class Form1
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -33,7 +33,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(486, 34);
+            this.button1.Location = new System.Drawing.Point(504, 32);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -41,15 +41,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // frm_redis_test1
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "frm_redis_test1";
-            this.Text = "Redis-Test1";
-            this.Load += new System.EventHandler(this.frm_redis_test1_Load);
+            this.Name = "Form1";
+            this.Text = "crm connection";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
